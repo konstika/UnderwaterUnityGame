@@ -206,13 +206,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.48296294, y: 0.22414392, z: -0.12940955, w: 0.8365163}
-  m_LocalPosition: {x: -4.46, y: 8.46, z: -4.49}
+  m_LocalRotation: {x: 0.32619035, y: 0.28257096, z: -0.102847405, w: 0.89620084}
+  m_LocalPosition: {x: -4.01, y: 8.46, z: -4.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 60, y: 30, z: 0}
+  m_LocalEulerAnglesHint: {x: 40, y: 35, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
   player: {fileID: 1509630710}
+  offset: {x: -4, y: 6, z: -4.8}
   camSpeed: 5
 --- !u!1 &410087039
 GameObject:
@@ -626,7 +627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b2c153c4b21ccb4fbd045b2a4b62efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DroneMovement
-  speed: 1
+  speed: 3
 --- !u!54 &1509630716
 Rigidbody:
   m_ObjectHideFlags: 0
