@@ -22,7 +22,7 @@ public class DroneMovement : MonoBehaviour
                 if (hit.collider.CompareTag("WaterPath")) { 
                     target = hit.point;
                     isMoving = true;
-                    print("target: "+target);
+                    //print("target: "+target);
                 }
             }
         }
